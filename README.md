@@ -1,6 +1,6 @@
-# Dicionario tecnico.
-
-* Feito com Vue js, consumindo api
+# Dicionario-tecnico-vue.
+  
+* Dicionario de palavras tecnicos feito com Vue js, consumindo api feito com Laravel
 
 # Instalação de vue js
 
