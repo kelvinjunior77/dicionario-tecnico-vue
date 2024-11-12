@@ -1,1 +1,3 @@
-# Dicionario tecnico feito com Vue js e Api 
+# Dicionario tecnico.
+
+* Feito com Vue js, consumindo api
