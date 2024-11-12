@@ -15,9 +15,11 @@ use Illuminate\Support\Facades\Route;
 |
 
 Route::get('dicionario', [Api])
-Route::get('/dicionario/search/{name}', [DicionarioController::class, 'search']);*/
+*/
 
 Route::get('/dicionario', [ApiController::class, 'index']);
+
+Route::get('/dicionario/search/{name}', [ApiController::class, 'search']);
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
