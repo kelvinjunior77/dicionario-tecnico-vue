@@ -28,13 +28,16 @@ git clone https://github.com/kelvinjunior99/dicionario-tecnico-vue
    
 cd dicionario-tecnico-vue
 npm install
+npm run serve
 
 3. Configure a API Laravel conforme as instruções do repositório.
 4. Inicie a aplicação:
    
-npm run serve
+composer install
+php artisan migrate
+php artisan serve
 
-5. Acesse a aplicação em seu navegador em http://localhost:8080.
+6. Acesse API  em seu navegador em http://localhost:8080.
 
 ## Contribuições
 
@@ -50,5 +53,4 @@ Sinta-se à vontade para contribuir com melhorias ou sugestões! Abra um issue o
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
 
