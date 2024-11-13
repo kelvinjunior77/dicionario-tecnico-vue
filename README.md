@@ -26,16 +26,16 @@ git clone https://github.com/kelvinjunior99/dicionario-tecnico-vue
 
 2. Instale as dependências do front-end:
    
-cd dicionario-tecnico-vue
-npm install
-npm run serve
+* cd dicionario-tecnico-vue
+* npm install
+* npm run serve
 
 3. Configure a API Laravel conforme as instruções do repositório.
 4. Inicie a aplicação:
    
-composer install
-php artisan migrate
-php artisan serve
+* composer install
+* php artisan migrate
+* php artisan serve
 
 6. Acesse API  em seu navegador em http://localhost:8080.
 
